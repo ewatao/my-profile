@@ -1,0 +1,122 @@
+/* Colors and fonts*/
+body {
+	background-color: #ECE9D4;
+    color: #4F5679;
+    font-family: 'optima', cursive;
+}
+h1 {
+	color: #E66375;
+    font-family: 'optima', cursive;
+    font-weight: 250px;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-transform: capitalizeg;
+}
+h2 {
+    color: #4F6A53;
+    font-size: 24px;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    color: #B188E6;
+    font-weight: 600;
+    font-size: 16px;
+}
+a:hover {
+    color: black;
+}
+
+/* Custom design with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 250px) {
+    .container {
+        width: 100px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    boz-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle { 
+		max-width:100%;
+		height:auto;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-blue {
+    background-color: #E66375;
+    color: white;
+    pedding: 25px 30px;    
+    border-radius: 6px;
+}
+.btn-ble:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+    color: #E66375;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
